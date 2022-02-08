@@ -1,0 +1,49 @@
+* {
+    font-family: 'Comic Neue', cursive;
+}
+
+body {
+    background-color: rgba(12, 218, 218, 0.39);
+}
+
+h1, h2, h4, h5, label {
+    font-weight: 700;
+}
+
+/* Navbar */
+.navbar {
+    font-weight: 700;
+}
+
+
+/* Información y estadísticas */
+#info-heroe {
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: display 0.5s;
+    -webkit-transition: display 0.5s;
+    -moz-transition: display 0.5s;
+    -ms-transition: display 0.5s;
+    -o-transition: display 0.5s;
+}
+
+
+/* Footer */
+footer {
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer {
+    /* Mantener el footer en el fondo*/
+    position:absolute;
+    bottom:-1;
+    width:100%;
+ }
